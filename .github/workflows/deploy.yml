@@ -30,7 +30,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: pwd
       - run: ls
-      - run: cd my-static-website yarn build
+      - run: cd my-static-website && yarn build
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
