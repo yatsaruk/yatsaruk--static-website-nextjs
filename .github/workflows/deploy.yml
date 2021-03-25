@@ -28,9 +28,9 @@ jobs:
           
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile
-      - run: cd my-static-website
+      - run: pwd
       - run: ls
-      - run: yarn build
+      - run: cd my-static-website yarn build
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
