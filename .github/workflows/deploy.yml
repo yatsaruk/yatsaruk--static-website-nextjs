@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: 12
           
-      - run: npm run build
+      - run: cd my-static-website && npm run build
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
