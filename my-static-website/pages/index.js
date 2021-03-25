@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to THIS PAGE TESTSSS <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -21,12 +21,12 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Documentation dsfsdfsadfsdfasdfsdafds&rarr;</h3>
+            <p>Find in-depth idsfsdfsd sd fsdf dsf sdfsdfsadfnformation about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
+            <h3>Learn MORE&rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
